@@ -15,7 +15,7 @@ function addTodo (event){
 
     // prevent default event
     event.preventDefault();
-
+    
     //todo div
     const todoDiv = document.createElement('div');
     todoDiv.classList.add("todo");
